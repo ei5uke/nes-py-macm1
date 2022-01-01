@@ -1,6 +1,7 @@
 # What This Is
 
-This repo allows users to use the nes-py repo but for Mac laptops that use the m1 processor. It was made using advice from user @lucasschoenhold 's repo, but there were still some issues using their repo so I fixed them here. The main issue with the original nes-py repo for the m1 processor is the usage of ```shell 
+This repo allows users to use the nes-py repo but for Mac laptops that use the m1 processor. It was made using advice from user @lucasschoenhold 's repo, but there were still some issues using their repo so I fixed them here. The main issue with the original nes-py repo for the m1 processor is the usage of 
+```shell 
 -march=native
 ```
 in the SConstruct.py file in nes-py/nes_py/nes and also in setup.py in nes-py/ and so I just deleted that flag. Aside from that, I also updated pyglet to install the latest version.
